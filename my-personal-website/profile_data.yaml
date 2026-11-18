@@ -1,0 +1,142 @@
+# profile_data.yaml
+# All website content lives here. Edit this file, not app.py.
+# RULE: only real, verified details. Empty fields ("" or []) are hidden by the app.
+# Fields marked "FROM Profile.pdf" are still empty because Profile.pdf was not
+# available when this file was built. Fill them from your LinkedIn export.
+
+identity:
+  full_name: "Damir Hadžić"
+  headline: "Construction Engineer"
+  credentials: "PhD · PMP"
+  location: "Sarajevo, Bosnia and Herzegovina"
+  summary: >-
+    Construction Engineer with a background in architecture, built heritage
+    conservation, urban planning and engineering. Currently supports UNICEF
+    Bosnia and Herzegovina in the monitoring of EU-funded (IPA 2020) construction
+    and rehabilitation works, covering supervision, procurement and contracting,
+    budget monitoring and coordination with beneficiaries and construction vendors.
+  philosophy: ""          # FROM Profile.pdf (About section), if present
+
+contact:
+  email: "damirexam@gmail.com"
+  work_email: "dhadzic@unicef.org"
+  phone: "+387 61 201 867"
+  linkedin: "https://linkedin.com/in/damir-hadzic-sa71000"
+  cv_file: "Profile.pdf"   # placed in the repository root
+
+experience:
+  - organisation: "UNICEF Bosnia and Herzegovina Country Office"
+    role: "Construction Engineer"
+    period: "2024 – Present"
+    location: "Sarajevo, Bosnia and Herzegovina"
+    highlights:
+      - "Monitoring of construction and supervision activities financed under IPA 2020 (European Union)."
+      - "Rehabilitation portfolio of 17 preschool facilities and 7 Centres for Social Work, including engineering, construction, WASH and solar components."
+      - "Technical support for procurement and contracting, budget monitoring, and communication with beneficiaries, supervision and construction vendors."
+      - "Release Officer in SAP/VISION for financial transactions and contract management."
+  - organisation: "ARHITEKTURaH"
+    role: ""               # FROM Profile.pdf
+    period: "2024"
+    location: ""
+    highlights: []
+  - organisation: "Directorate for European Integration of Bosnia and Herzegovina"
+    role: ""               # FROM Profile.pdf
+    period: "2018 – 2023"
+    location: "Bosnia and Herzegovina"
+    highlights: []
+  - organisation: "Cantonal Institution for Cultural Heritage"
+    role: ""               # FROM Profile.pdf
+    period: "2007 – 2018"
+    location: "Bosnia and Herzegovina"
+    highlights:
+      - "Built heritage work including a documented project connected to post-conflict reconciliation, memorialisation and conflict-sensitive heritage."
+
+international_experience:
+  - country: "Bosnia and Herzegovina"
+    field: "Architecture, built heritage conservation, urban planning, engineering"
+    period: "2001 – 2026"
+  - country: "Spain"
+    field: "Urban planning"
+    period: "2001"
+  - country: "Sweden"
+    field: "Logical Framework Approach, project management and planning"
+    period: "2002 – 2004"
+  - country: "Slovakia"
+    field: "Built heritage conservation and development"
+    period: "2003"
+  - country: "Italy"
+    field: "Cultural heritage management"
+    period: "2004 – 2006"
+  - country: "Croatia"
+    field: "Engineering"
+    period: "2005 – 2008"
+  - country: "Hungary"
+    field: "Engineering and technology"
+    period: "2018 – 2022"
+
+# Selected projects. Shown as specification cards when assets/ has no images.
+projects:
+  - title: "EU IPA 2020 Preschool Rehabilitation Programme"
+    client: "UNICEF Bosnia and Herzegovina / European Union"
+    role: "Construction Engineer (monitoring and technical support)"
+    location: "Bosnia and Herzegovina"
+    scope: "Rehabilitation of 17 preschool facilities: engineering, construction, WASH and solar works."
+  - title: "EU IPA 2020 Centres for Social Work Rehabilitation"
+    client: "UNICEF Bosnia and Herzegovina / European Union"
+    role: "Construction Engineer (monitoring and technical support)"
+    location: "Bosnia and Herzegovina"
+    scope: "Rehabilitation of 7 Centres for Social Work."
+
+education:
+  - degree: "PhD, Architectural Engineering"
+    institution: "University of Pécs"
+    period: ""             # FROM Profile.pdf
+  - degree: "Master's degree, Built Heritage Conservation"
+    institution: "AINova"
+    period: ""
+  - degree: "Bachelor's degree, Architecture"
+    institution: "University of Sarajevo"
+    period: ""
+
+certifications:
+  - name: "Project Management Professional (PMP)"
+    issuer: "Project Management Institute"
+    date: ""
+  - name: "Professional Exam (Stručni ispit)"
+    issuer: "Bosnia and Herzegovina"
+    date: ""
+  - name: "Fundamentals of Humanitarian Action (Modules 1–5)"
+    issuer: "UNICEF"
+    date: "January 2026"
+
+skills:
+  core:
+    - "Project & Construction Management"
+    - "Architectural Rehabilitation"
+    - "Sustainable Design"
+    - "Procurement & Contracting"
+    - "Budget Monitoring"
+    - "Stakeholder Engagement"
+    - "WASH & Solar Components"
+    - "Built Heritage Conservation"
+    - "Urban Planning"
+    - "Logical Framework Approach"
+  technical: []            # FROM Profile.pdf (CAD / BIM / software). Do not guess.
+  systems:
+    - "SAP / VISION (Release Officer)"
+
+languages:
+  - language: "Bosnian/Croatian/Serbian"
+    level: "Native"
+  - language: "English"
+    level: ""              # FROM Profile.pdf
+  - language: "French"
+    level: ""
+  - language: "Italian"
+    level: ""
+
+inquiry_types:
+  - "Architectural Design"
+  - "Consultancy"
+  - "Construction Supervision"
+  - "General"
